@@ -4,7 +4,7 @@ from docplex.mp.model import Model
 mdl = Model(name='mutiply binary by decision variable')
 
 b = mdl.binary_var(name='b')
-x = mdl.integer_var(name='x',lb=10,ub=10)
+x = mdl.integer_var(name='x',lb=0,ub=10)
 
 bx= mdl.integer_var(name='bx')
 
