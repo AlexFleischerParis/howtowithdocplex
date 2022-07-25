@@ -4,9 +4,6 @@ mdl = CpoModel(name='scalar decision type')
 
 binaryVar = mdl.binary_var(name='binaryVar')
 integerVar = mdl.integer_var(name='integerVar')
-
-binaryVar = mdl.binary_var(name='binaryVar')
-integerVar = mdl.integer_var(name='integerVar')
 intervalVar = mdl.interval_var(name="intervalVar")
 
 
